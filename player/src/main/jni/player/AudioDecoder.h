@@ -6,11 +6,12 @@
 #define MINGPLAYER_AUDIODECODER_H
 
 
-
 class AudioDecoder {
-
+public:
+    void start();
+    void stop();
+    void release();
 };
-
 
 
 #endif //MINGPLAYER_AUDIODECODER_H
